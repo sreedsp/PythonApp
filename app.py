@@ -6,7 +6,11 @@ def create_app():
     app = Flask(__name__)
     @app.route('/')
     def home():
+<<<<<<< HEAD
         return 'Hello Chatters-The web is still under construction'
+=======
+        return 'Hello Chatters - Welcome'
+>>>>>>> a0d85e516c352c600220e48e70605f930e0cce06
 
     return app
 
