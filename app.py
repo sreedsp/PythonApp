@@ -6,7 +6,7 @@ def create_app():
     app = Flask(__name__)
     @app.route('/')
     def home():
-        return 'Hello Chatters - Welcome'
+        return 'This is a new version'
 
     return app
 
