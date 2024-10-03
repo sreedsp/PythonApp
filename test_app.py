@@ -1,6 +1,6 @@
 # test_app.py
 
-import pytest
+import pytest # type: ignore
 from app import create_app
 from urllib.parse import quote
 
