@@ -15,6 +15,6 @@ def client(app):
 def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
-    expected_text = 'Hello Chatters - The web is still under construction'
+    expected_text = 'Hello Chatters'
     print(response.data)
     assert expected_text.encode() == response.data

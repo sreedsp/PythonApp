@@ -6,7 +6,7 @@ def create_app():
     app = Flask(__name__)
     @app.route('/')
     def home():
-        return 'Hello Chatters - The web is still under construction'
+        return 'Hello Chatters-The web is still under construction'
 
     return app
 
