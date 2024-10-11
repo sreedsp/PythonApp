@@ -6,7 +6,7 @@ def create_app():
     app = Flask(__name__)
     @app.route('/')
     def home():
-        return 'Sreejith the great'
+        return 'Sreejith the great terminator'
 
     return app
 
