@@ -40,7 +40,7 @@ jobs:
         pytest
 
 
-sonarcube:
+sonarqube:
     name: Build and analyze
     runs-on: ubuntu-latest
     
